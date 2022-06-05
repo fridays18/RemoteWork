@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shibuki",
+    "customModelName": "Normal",
+    "name": "Shibuki",
+    "specialInfo": [
+      "When hitting an enemy release the power of thousands of explosions tags on your foes"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Fridaysnarutomod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.4,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ShibukiLivingEntityIsHitWithTool"
+    }
+  }
+}

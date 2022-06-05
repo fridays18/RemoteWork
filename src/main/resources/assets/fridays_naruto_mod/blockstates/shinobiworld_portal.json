@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "fridays_naruto_mod:block/shinobiworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "fridays_naruto_mod:block/shinobiworld_portal_ns"
+    }
+  }
+}

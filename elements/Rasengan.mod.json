@@ -1,0 +1,56 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "rasengan_tx",
+    "customModelName": "Normal",
+    "name": "Rasengan",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:Fridaysnarutomod"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Right click to throw vanishing rasengan",
+      "swing to get speed",
+      "and hit to do damage"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "RasenganRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "RasenganLivingEntityIsHitWithItem"
+    },
+    "onEntitySwing": {
+      "name": "RasenganEntitySwingsItem"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

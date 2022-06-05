@@ -1,0 +1,39 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "r_tex",
+    "customModelName": "Normal",
+    "name": "Earth grudge",
+    "specialInfo": [
+      "right click to do mid damage and knockback"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Fridaysnarutomod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Chakra"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.STONE#0"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

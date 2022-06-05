@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fridays_naruto_mod:items/kusanagi"
+  }
+}

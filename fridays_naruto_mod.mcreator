@@ -1,0 +1,1912 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ninja",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninja"
+    },
+    {
+      "name": "Chakra",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakra"
+    },
+    {
+      "name": "Ranghit",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranghit"
+    },
+    {
+      "name": "SharinganProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharingan_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waterbullet",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterbullet"
+    },
+    {
+      "name": "Phoenixflower",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenixflower"
+    },
+    {
+      "name": "Earthgrudge",
+      "type": "rangeditem",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthgrudge"
+    },
+    {
+      "name": "Windblade",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "windblade"
+    },
+    {
+      "name": "ByakuganRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byakugan_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ByakuganLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byakugan_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Byakugan",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byakugan"
+    },
+    {
+      "name": "Rinneshoot",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rinneshoot"
+    },
+    {
+      "name": "RinneganRightclicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rinnegan_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RinneganLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rinnegan_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rinnegan",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rinnegan"
+    },
+    {
+      "name": "Sharshoot",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharshoot"
+    },
+    {
+      "name": "SharinganRightclicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharingan_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SharinganLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharingan_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sharingan",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharingan"
+    },
+    {
+      "name": "ItachisharRightclicked",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itachishar_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItachisharLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itachishar_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Itachishar",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itachishar"
+    },
+    {
+      "name": "Crystalblade",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalblade"
+    },
+    {
+      "name": "Crystaldragon",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystaldragon"
+    },
+    {
+      "name": "CrystalBloodlineRightclicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_bloodline_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrystalBloodlineItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_bloodline_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrystalBloodline",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_bloodline"
+    },
+    {
+      "name": "Wooddragon",
+      "type": "rangeditem",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooddragon"
+    },
+    {
+      "name": "WoodbloodlineRightclicked",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodbloodline_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodbloodlineItemInHandTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodbloodline_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodbloodlineLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodbloodline_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Woodbloodline",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodbloodline"
+    },
+    {
+      "name": "ItachisharRightclickeddd",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itachishar_rightclickeddd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GourdProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gourd_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gourd",
+      "type": "rangeditem",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gourd"
+    },
+    {
+      "name": "TwinlionfistToolInHandTick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twinlionfist_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twinlionfist",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twinlionfist"
+    },
+    {
+      "name": "ByakuganRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byakugan_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vanishingrasengan",
+      "type": "rangeditem",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanishingrasengan"
+    },
+    {
+      "name": "Rasengan",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasengan"
+    },
+    {
+      "name": "RasenganRightclicked",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasengan_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RasenganEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasengan_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RasenganLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasengan_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Miotichealing",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miotichealing"
+    },
+    {
+      "name": "MiotichealingItemInHandTick",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miotichealing_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kamui",
+      "type": "dimension",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kamui",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "KamuisharProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kamuishar_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kamuisharingan",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kamuisharingan"
+    },
+    {
+      "name": "SusanooItemInHandTick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susanoo_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SusanooLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susanoo_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SusanooRightclicked",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susanoo_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Susanoo",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susanoo"
+    },
+    {
+      "name": "Tanto",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanto"
+    },
+    {
+      "name": "Tantorec",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantorec"
+    },
+    {
+      "name": "TantoToolInHandTick",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanto_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantoLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanto_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmaterasuProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amaterasu_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amaterasu",
+      "type": "rangeditem",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amaterasu"
+    },
+    {
+      "name": "ItachisharRightclick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itachishar_rightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SusanooRightclick",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susanoo_rightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eightgates",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eightgates"
+    },
+    {
+      "name": "Eightgateworld",
+      "type": "dimension",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eightgateworld",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "EightgatesLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eightgates_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChibakuTenseiLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chibaku_tensei_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChibakuTensei",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chibaku_tensei"
+    },
+    {
+      "name": "InfiniteTsukuyomiLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinite_tsukuyomi_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfiniteTsukuyomi",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinite_tsukuyomi"
+    },
+    {
+      "name": "ChidoriLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chidori_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chidori",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chidori"
+    },
+    {
+      "name": "ChidoriToolInHandTick",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chidori_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KamuisharinganLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kamuisharingan_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AburameattackLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aburameattack_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aburameattack",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aburameattack"
+    },
+    {
+      "name": "ExplosionReleaseLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_release_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosionRelease",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_release"
+    },
+    {
+      "name": "LightningCloakItemInHandTick",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_cloak_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningCloak",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_cloak"
+    },
+    {
+      "name": "Ashkillingashbones",
+      "type": "rangeditem",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashkillingashbones"
+    },
+    {
+      "name": "BuujuBullet",
+      "type": "rangeditem",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buuju_bullet"
+    },
+    {
+      "name": "BuujuBulletProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buuju_bullet_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Truthseekingorbs",
+      "type": "rangeditem",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truthseekingorbs"
+    },
+    {
+      "name": "TentailedmodeItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentailedmode_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TentailedmodeLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentailedmode_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tentailedmode",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentailedmode"
+    },
+    {
+      "name": "SagemodeItemInHandTick",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sagemode_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sagemode",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sagemode"
+    },
+    {
+      "name": "ToadoilProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toadoil_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toadoil",
+      "type": "rangeditem",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toadoil"
+    },
+    {
+      "name": "SagemodeRightclicked",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sagemode_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TentailedmodeRightclicked",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentailedmode_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TalknojutsuOnKeyPressed",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talknojutsu_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Talknojutsu",
+      "type": "keybind",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talknojutsu"
+    },
+    {
+      "name": "Scroll",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll"
+    },
+    {
+      "name": "ShinobiRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinobi_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shinobi",
+      "type": "livingentity",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinobi"
+    },
+    {
+      "name": "ScrollRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvilAnbu",
+      "type": "livingentity",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_anbu"
+    },
+    {
+      "name": "ShinobieggRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinobiegg_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shinobiegg",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinobiegg"
+    },
+    {
+      "name": "Shinobicraft",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinobicraft"
+    },
+    {
+      "name": "Fridaysnarutomod",
+      "type": "tab",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fridaysnarutomod"
+    },
+    {
+      "name": "Kusanagi",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kusanagi"
+    },
+    {
+      "name": "Kusan",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kusan"
+    },
+    {
+      "name": "Kubikriboku",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kubikriboku"
+    },
+    {
+      "name": "NuibariLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuibari_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nuibari",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuibari"
+    },
+    {
+      "name": "KibaLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiba_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kiba",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiba"
+    },
+    {
+      "name": "ShibukiLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shibuki_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shibuki",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shibuki"
+    },
+    {
+      "name": "Hiramekareishoot",
+      "type": "rangeditem",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiramekareishoot"
+    },
+    {
+      "name": "HiramekareiRightclicked",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiramekarei_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hiramekarei",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiramekarei"
+    },
+    {
+      "name": "Kunai",
+      "type": "rangeditem",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai"
+    },
+    {
+      "name": "NinetailsItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninetails_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NinetailsRightclicked",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninetails_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ninetails",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninetails"
+    },
+    {
+      "name": "SteelArmour",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armour"
+    },
+    {
+      "name": "SteelArmourItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armour_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C3RightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C3ItemInHandTick",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C3",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3"
+    },
+    {
+      "name": "KunaiRangedItemUsed",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kunairec",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunairec"
+    },
+    {
+      "name": "ShinobiStructure",
+      "type": "structure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinobi_structure"
+    },
+    {
+      "name": "Shinobiworld",
+      "type": "dimension",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinobiworld",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Lightercraft",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightercraft"
+    },
+    {
+      "name": "Ramen",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ramen"
+    },
+    {
+      "name": "KusanagiRightclicked",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kusanagi_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TentailedmodeEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentailedmode_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosivebirdsProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivebirds_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explosivebirds",
+      "type": "rangeditem",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivebirds"
+    },
+    {
+      "name": "BugshotProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bugshot_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bugshot",
+      "type": "rangeditem",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bugshot"
+    },
+    {
+      "name": "AburameattackRightclicked",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aburameattack_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReaperdeathsealLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaperdeathseal_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reaperdeathseal",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaperdeathseal"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.fridays_naruto_mod.amaterasu": "Amaterasu",
+      "item.fridays_naruto_mod.kusanagi": "Kusanagi",
+      "itemGroup.tabfridaysnarutomod": "Fridays naruto",
+      "item.fridays_naruto_mod.eightgates": "Eight gates",
+      "item.fridays_naruto_mod.shibuki": "Shibuki",
+      "item.fridays_naruto_mod.c_3": "C3",
+      "item.fridays_naruto_mod.chibaku_tensei": "Chibaku Tensei",
+      "item.fridays_naruto_mod.sagemode": "Sage mode",
+      "item.fridays_naruto_mod.truthseekingorbs": "Truth seeking orbs",
+      "item.fridays_naruto_mod.scroll": "Scroll",
+      "item.fridays_naruto_mod.kamui": "Kamui Portal Igniter",
+      "item.fridays_naruto_mod.shinobiegg": "Shinobi egg",
+      "item.fridays_naruto_mod.ninetails": "Nine tails",
+      "entity.fridays_naruto_mod.shinobi": "Shinobi",
+      "item.fridays_naruto_mod.aburameattack": "Aburame attack",
+      "item.fridays_naruto_mod.toadoil": "Toadoil",
+      "item.fridays_naruto_mod.kiba": "Kiba",
+      "item.fridays_naruto_mod.crystaldragon": "Crystaldragon",
+      "item.fridays_naruto_mod.twinlionfist": "Twinlionfist",
+      "item.fridays_naruto_mod.rinneshoot": "Rinneshoot",
+      "item.fridays_naruto_mod.phoenixflower": "Phoenix flower jutsu",
+      "item.fridays_naruto_mod.hiramekareishoot": "Hiramekareishoot",
+      "item.fridays_naruto_mod.chidori": "Chidori",
+      "key.fridays_naruto_mod.talknojutsu": "Talknojutsu",
+      "item.fridays_naruto_mod.sharingan": "Sharingan",
+      "item.fridays_naruto_mod.crystalblade": "Crystalblade",
+      "item.fridays_naruto_mod.explosion_release": "Explosion Release",
+      "item.fridays_naruto_mod.steel_armour": "Steel Armour",
+      "item.fridays_naruto_mod.bugshot": "Bugshot",
+      "item.fridays_naruto_mod.rinnegan": "Rinnegan",
+      "item.fridays_naruto_mod.kamuisharingan": "Kamui sharingan",
+      "item.fridays_naruto_mod.gourd": "Sand Gourd",
+      "item.fridays_naruto_mod.byakugan": "Byakugan",
+      "item.fridays_naruto_mod.chakra": "Chakra",
+      "item.fridays_naruto_mod.lightning_cloak": "Lightning Cloak",
+      "item.fridays_naruto_mod.ashkillingashbones": "Ash killing ash bones",
+      "item.fridays_naruto_mod.kubikriboku": "Kubikriboku",
+      "item.fridays_naruto_mod.ramen": "Ramen",
+      "item.fridays_naruto_mod.tanto": "Tanto",
+      "item.fridays_naruto_mod.explosivebirds": "Explosivebirds",
+      "item.fridays_naruto_mod.windblade": "Wind blade",
+      "item.fridays_naruto_mod.crystal_bloodline": "Crystal Bloodline",
+      "entity.fridays_naruto_mod.evil_anbu": "Evil Anbu",
+      "item.fridays_naruto_mod.kunai": "Kunai",
+      "item.fridays_naruto_mod.shinobiworld": "Shinobi world Portal Igniter",
+      "item.fridays_naruto_mod.earthgrudge": "Earth grudge",
+      "item.fridays_naruto_mod.vanishingrasengan": "Vanishingrasengan",
+      "item.fridays_naruto_mod.infinite_tsukuyomi": "Infinite Tsukuyomi",
+      "item.fridays_naruto_mod.buuju_bullet": "Buuju Bullet",
+      "item.fridays_naruto_mod.woodbloodline": "Wood bloodline",
+      "item.fridays_naruto_mod.susanoo": "Susanoo",
+      "item.fridays_naruto_mod.ranghit": "Ranghit",
+      "item.fridays_naruto_mod.evil_anbu_spawn_egg": "Evil Anbu Spawn Egg",
+      "item.fridays_naruto_mod.waterbullet": "Water bullet",
+      "item.fridays_naruto_mod.sharshoot": "Sharshoot",
+      "item.fridays_naruto_mod.nuibari": "Nuibari",
+      "item.fridays_naruto_mod.hiramekarei": "Hiramekarei",
+      "item.fridays_naruto_mod.rasengan": "Rasengan",
+      "item.fridays_naruto_mod.eightgateworld": "Eightgateworld Portal Igniter",
+      "item.fridays_naruto_mod.wooddragon": "Wooddragon",
+      "item.fridays_naruto_mod.reaperdeathseal": "Reaperdeathseal",
+      "item.fridays_naruto_mod.itachishar": "Itachi Sharingan",
+      "biome.fridays_naruto_mod.ninja": "Ninja",
+      "item.fridays_naruto_mod.shinobi_spawn_egg": "Shinobi Spawn Egg",
+      "item.fridays_naruto_mod.tentailedmode": "Ten tailed mode",
+      "item.fridays_naruto_mod.miotichealing": "Miotic healing"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fridays_naruto_mod",
+    "modName": "fridays naruto mod",
+    "version": "1.0.0",
+    "author": "gamer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fridaysnarutomod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

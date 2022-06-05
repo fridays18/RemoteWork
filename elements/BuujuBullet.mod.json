@@ -1,0 +1,42 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "buujibomb",
+    "customModelName": "Normal",
+    "name": "Buuju Bullet",
+    "specialInfo": [
+      "Shoot a massive force of energy at an oponent which makes a big explosion"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Fridaysnarutomod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Chakra"
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 10.0,
+    "bulletDamage": 1000.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.SHULKER_SPAWN_EGG"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "BuujuBulletProjectileHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "fridays_naruto_mod:chakra"
+    },
+    "1": {
+      "item": "fridays_naruto_mod:chakra"
+    },
+    "2": {
+      "item": "fridays_naruto_mod:chakra"
+    },
+    "3": {
+      "item": "fridays_naruto_mod:chakra"
+    }
+  },
+  "result": {
+    "item": "fridays_naruto_mod:shinobiegg",
+    "count": 1
+  }
+}

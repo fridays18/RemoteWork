@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:flint"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "6": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "fridays_naruto_mod:kusanagi",
+    "count": 1
+  }
+}

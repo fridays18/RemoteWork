@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "Talknojutsu",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "TalknojutsuOnKeyPressed"
+    }
+  }
+}

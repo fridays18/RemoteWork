@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "fridays_naruto_mod:kunai"
+    },
+    "3": {
+      "item": "fridays_naruto_mod:waterbullet"
+    }
+  },
+  "result": {
+    "item": "fridays_naruto_mod:shinobiworld",
+    "count": 1
+  }
+}

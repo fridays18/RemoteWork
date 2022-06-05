@@ -1,0 +1,45 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "byak_tx",
+    "customModelName": "Normal",
+    "name": "Byakugan",
+    "specialInfo": [
+      "Hit an enemy with this to stun and deal damage",
+      "right click an enemy to focus your byakugan on them",
+      "rightclick in air to activate the byakugans sight",
+      "and rightclick a block with the byakugan to use twin lion fist"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Fridaysnarutomod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 0.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Chakra"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ByakuganRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "ByakuganRightclickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "ByakuganLivingEntityIsHitWithTool"
+    }
+  }
+}
