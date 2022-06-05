@@ -1818,8 +1818,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.fridays_naruto_mod.amaterasu": "Amaterasu",
       "item.fridays_naruto_mod.kusanagi": "Kusanagi",
+      "item.fridays_naruto_mod.amaterasu": "Amaterasu",
       "itemGroup.tabfridaysnarutomod": "Fridays naruto",
       "item.fridays_naruto_mod.eightgates": "Eight gates",
       "item.fridays_naruto_mod.shibuki": "Shibuki",
@@ -1894,7 +1894,7 @@
     "modid": "fridays_naruto_mod",
     "modName": "fridays naruto mod",
     "version": "1.0.0",
-    "author": "gamer, MCreator",
+    "author": "Ethan, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

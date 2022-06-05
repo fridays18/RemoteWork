@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="fridays naruto mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="gamer, MCreator"
+authors="Ethan, MCreator"
 
 [[dependencies.fridays_naruto_mod]]
     modId="minecraft"
